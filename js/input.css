@@ -1,0 +1,28 @@
+.input {
+    margin: 1em 0;
+    max-width: 190px;
+}
+
+.input input {
+    font-size: 100%;
+    outline: none;
+    height: 40px;
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.input input::placeholder {
+    opacity: 1;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Esto hará que se muestre como un campo de texto normal */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Repte (PLA03)</title>
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" href="js/global.css" />
+        <link rel="stylesheet" href="js/button.css" />
+        <link rel="stylesheet" href="js/input.css" />
+    </head>
+    <body>
+        <div class="card">
+            <p>Calculador de IVA</p>
+            <div class="input">
+                <input
+                    type="number"
+                    id="quantitat"
+                    required
+                    placeholder="Indica la cantidad."
+                />
+            </div>
+            <button id="calcular" class="btn" type="button">Calcular</button>
+            <!-- Quan l'usuari faci clic al button es realitzaran diferents accions. A les caixes...'-->
+            <!-- A "caixa1" s'escriurà el resultat del càlcul: 'l'IVA de 100€ és 21€'-->
+            <!-- A "caixa2" s'afegirà al final del text cadascuna de les operacions '100€ + 21€ = 121€'-->
+            <!-- A "caixa3" s'escriurà la suma total de totes les quantitats calculades: '121€''-->
+            <div id="caixa1"></div>
+            <div id="caixa2"></div>
+            <p>Suma total</p>
+            <div id="caixa3"></div>
+        </div>
+    </body>
+</html>
